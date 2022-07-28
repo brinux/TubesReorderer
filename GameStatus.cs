@@ -41,9 +41,9 @@
 					Console.WriteLine();
 					Console.WriteLine($"Step { count++ }");
 					Console.WriteLine();
-					step.Item2.PrintStatus();
-					Console.WriteLine();
 					step.Item1.Print();
+					Console.WriteLine();
+					step.Item2.PrintStatus();
 				}
 			}
 		}
